@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Please Enter after how much time you wish to start download"/>
+    <EditText
+        android:id="@+id/et_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter minute"
+        android:layout_below="@id/tv_min"
+        android:textSize="17sp"
+        android:inputType="number"
+        android:maxLength="2"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/et_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter second"
+        android:layout_below="@id/et_min"
+        android:textSize="17sp"
+        android:maxLength="2"
+        android:inputType="number"
+        android:layout_margin="10dp"/>
+    <Spinner
+        android:id="@+id/spn_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_below="@id/et_sec"/>
+    <TextView
+        android:id="@+id/tv_addmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add More"
+        android:layout_below="@id/spn_link"
+        android:layout_centerHorizontal="true"
+        android:textColor="#33DAFF"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_addmore"
+        android:layout_marginTop="30dp"
+        android:text="Submit"/>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437075375508",
+    "firebase_url": "https://spryox-assignment.firebaseio.com",
+    "project_id": "spryox-assignment",
+    "storage_bucket": "spryox-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437075375508:android:f494746bc42c33e208cb81",
+        "android_client_info": {
+          "package_name": "com.hasid.spryoxassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437075375508-3i2p2j92hfn9bqlqs1hfbnlqlbch9u3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hasid.spryoxassignment",
+            "certificate_hash": "fbbd931fcbcf05bad2dc261c554be5e99643f21d"
+          }
+        },
+        {
+          "client_id": "437075375508-rcb75ot4b2c60npuv4ulm2lg62lq08do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHW4WUVBjHGksLcZi4IJ-LaWGRWnMptw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437075375508-rcb75ot4b2c60npuv4ulm2lg62lq08do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
